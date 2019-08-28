@@ -7,7 +7,6 @@ function icyHot(a,b) {
     }
 }
 
-
 icyHot(-17, 112);
 icyHot(3,96);
 icyHot(-2,88);
