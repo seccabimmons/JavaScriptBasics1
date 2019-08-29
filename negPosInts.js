@@ -1,14 +1,15 @@
-function posNeg(a,b) {
-    if (a<0&&b>=0 || a<0&&b<0) {
-        console.log("true");
+function posNeg(num1, num2, isNegative) {
+    if (isNegative) {
+        console.log(num1<0 && num2<0);
     }
     else {
-        console.log("false");
+        console.log((num1<0 && num2>0)||(num1>0 && num2<0));
     }
 }
 
-
-posNeg(-86,7);
-posNeg(-9,-77);
-posNeg(35, 29);
-posNeg(13, -47);
+posNeg(-1, -1, true);
+posNeg(-1, 2, false);
+posNeg(5, 8, true);
+posNeg(-1, -1, true);
+posNeg(1, 2, true);
+posNeg(5, -8, false);

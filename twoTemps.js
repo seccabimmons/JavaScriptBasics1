@@ -1,5 +1,5 @@
 function icyHot(a,b) {
-    if (a,a<=0 && a,b>=100 ) {
+    if (a<=0 && b>=100 || b<=0 && a>=100) {
         console.log("true");
     }
     else {
